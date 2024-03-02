@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('/Screenshot_2024-03-02-08-45-21-23_99c04817c0de5652397fc8b56c3b3817.jpg');
+    background-repeat: no-repeat;
+      background-size: 100%;
+    display: flex;
+     position: fixed;
+      justify-content: center;
+      align-items: center;
+}
+
+#add {
+
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background-color: transparent;
+
+
+
+padding-top: 4px;
+
+ 
+
+   
+  
+}
+#result{
+  margin-top: -20px;
+  border-radius: 5px;
+border-width: 0px;
+border-color: black;
+margin-left: -1px;
+ margin-bottom: 1px;
+  background-position: fixed;
+  color: white;
+  background-color: #19191A7D; 
+}
+input{
+  
+    font-size: 30px;
+  width: 46%;
+  height: 50px;
+  border-color: transparent;
+  border-width: 0px;
+  text-align: center;
+}
+button{
+  margin: -3px;
+  
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+color: white;
+  border-color: black;
+  font-size: 30px;
+  background-color: #19191A7D;
+}
+#add2{
+  transition: transform 1s ease-in-out;
+}
+#add2 {
+  transform: scale(0.8); /* Adjust the scale value as needed (e.g., 0.8 for 80% zoom) */
+}
+#add2:hover{
+   transform: scale(1);
+}
+@media only screen and (max-width: 600px) {
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('/Screenshot_2024-03-02-08-48-36-85_99c04817c0de5652397fc8b56c3b3817.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: flex;
+      position: fixed;
+      justify-content: center;
+      align-items: center;
+}
+
+#add {
+
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background-color: transparent;
+width: 190px;
+
+
+border-radius: 0px;
+padding-left: 0px;
+
+padding-top: 20px;
+
+ 
+
+   
+  
+}
+#result{
+  width: 190px;
+  margin-top: -20px;
+  border-radius: 5px;
+border-width: 0px;
+border-color: black;
+margin-left: -1px;
+ margin-bottom: 1px;
+  background-position: fixed;
+  color: white;
+  background-color: #19191A7D; 
+}
+input{
+  
+    font-size: 30px;
+  width: 53%;
+  height: 50px;
+  border-color: transparent;
+  border-width: 0px;
+  text-align: center;
+}
+button{
+  margin: -3px;
+  
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+color: white;
+  border-color: black;
+  font-size: 30px;
+  background-color: #19191A7D;
+}
+#add2{
+  transition: transform 1s ease-in-out;
+}
+#add2:hover{
+   transform: scale(1.5);
+}
+}
+
